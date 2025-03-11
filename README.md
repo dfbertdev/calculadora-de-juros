@@ -1,75 +1,87 @@
-# Nuxt Minimal Starter
+# 📈 Calculadora de Juros & Simulador Financeiro
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Bem-vindo(a) ao **Calculadora de Juros**, um projeto open source desenvolvido com Nuxt.js e Vue 3! Esta aplicação foi criada para ajudá-lo(a) a planejar investimentos, visualizar o crescimento do seu patrimônio e entender claramente como os juros compostos impactam seus objetivos financeiros.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## ✨ Principais Recursos
+
+- ✅ **Simulação detalhada:** Calcula aportes mensais e iniciais com taxas de juros mensais ou anuais.
+- 📅 **Planejamento por período:** Escolha períodos em meses ou anos, definindo metas de patrimônio ou renda passiva.
+- 📊 **Visualização gráfica:** Gráficos intuitivos (com Chart.js) mostram o progresso do investimento mês a mês.
+- 💾 **Simulações salvas:** Guarde suas simulações favoritas diretamente no seu navegador.
+- 📆 **Projeção de idade:** Visualize claramente sua idade atual e futura ao atingir as metas estabelecidas.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Nuxt.js 3](https://nuxt.com/)
+- [Vue 3](https://vuejs.org/)
+- [Chart.js](https://www.chartjs.org/)
+- [Vue Currency Input](https://dm4t2.github.io/vue-currency-input/)
+
+---
+
+## 🚀 Como Executar
+
+### 1. Clone o repositório
 
 ```bash
-# npm
+git clone https://github.com/seu-usuario/calculadora-de-juros.git
+```
+
+### 2. Instale as dependências
+
+```bash
+cd calculadora-de-juros
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### 3. Rode a aplicação localmente
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Após rodar o comando acima, acesse no navegador:
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+```
+http://localhost:3000
 ```
 
-Locally preview production build:
+---
 
-```bash
-# npm
-npm run preview
+## 🧑‍💻 Scripts Disponíveis
 
-# pnpm
-pnpm preview
+| Script            | Descrição                           |
+|-------------------|-------------------------------------|
+| `npm run dev`     | Inicia a aplicação em modo dev      |
+| `npm run build`   | Compila a aplicação para produção   |
+| `npm run generate`| Gera uma versão estática do projeto |
+| `npm run preview` | Executa preview do build            |
 
-# yarn
-yarn preview
+---
 
-# bun
-bun run preview
-```
+## 🤝 Como contribuir
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Sua contribuição é sempre bem-vinda! Para contribuir:
+
+1. Crie um fork do projeto.
+2. Crie uma nova branch com sua alteração: `git checkout -b minha-nova-funcionalidade`
+3. Faça commit das suas alterações: `git commit -m 'Adicionei nova funcionalidade'`
+4. Faça push para a branch: `git push origin minha-nova-funcionalidade`
+5. Abra um Pull Request detalhando suas alterações.
+
+---
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para detalhes.
+
+---
+
+✨ Feito com ❤️ por [Seu Nome](https://github.com/seu-usuario)
+
+Se gostou do projeto, considere deixar uma estrela ⭐ para apoiar!
+
