@@ -28,7 +28,7 @@ Bem-vindo(a) ao **Calculadora de Juros**, um projeto open source desenvolvido co
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/calculadora-de-juros.git
+git clone https://github.com/dfbertdev/calculadora-de-juros.git
 ```
 
 ### 2. Instale as dependências
@@ -62,26 +62,6 @@ http://localhost:3000
 | `npm run preview` | Executa preview do build            |
 
 ---
-
-## 🤝 Como contribuir
-
-Sua contribuição é sempre bem-vinda! Para contribuir:
-
-1. Crie um fork do projeto.
-2. Crie uma nova branch com sua alteração: `git checkout -b minha-nova-funcionalidade`
-3. Faça commit das suas alterações: `git commit -m 'Adicionei nova funcionalidade'`
-4. Faça push para a branch: `git push origin minha-nova-funcionalidade`
-5. Abra um Pull Request detalhando suas alterações.
-
----
-
-## 📜 Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para detalhes.
-
----
-
-✨ Feito com ❤️ por [Seu Nome](https://github.com/seu-usuario)
 
 Se gostou do projeto, considere deixar uma estrela ⭐ para apoiar!
 
