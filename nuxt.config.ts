@@ -6,8 +6,12 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'static', // Garante que o Nuxt gere um build estático
     prerender: {
-      routes: ['/', '/200.html', '/404.html'], // Adiciona a rota principal para garantir que seja gerada
+      routes: ['/', '/200.html', '/404.html'], // Garante que a index.html seja gerada
+    },
+    output: {
+      dir: '.output', // Define onde os arquivos gerados serão armazenados
     }
   }
 })
+
 
