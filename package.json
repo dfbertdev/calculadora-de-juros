@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate && node scripts/generateDeployManifest.js",
+    "generate": "node scripts/generateDeployManifest.js && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
