@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const outputDir = path.resolve(__dirname, '.output/public');
+// Corrigir __dirname para ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const outputDir = path.resolve(__dirname, '../.output/public');
 const manifestPath = path.join(outputDir, 'deploy-manifest.json');
 
 const manifestContent = {
